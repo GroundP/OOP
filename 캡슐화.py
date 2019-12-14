@@ -44,6 +44,6 @@ class Citizen:
 
 
 young = Citizen("박지상", 30, "1222712")
-print(young.age) """인스턴스 변수는 _age이지만 데코레이터 getter로 정의된 age메소드를 통해 _age반환"""
-young.age = 21 """인스턴스 변수는 _age이지만 데코레이터 setter로 정의된 age메소드를 통해 _age 설정"""
+print(young.age) #인스턴스 변수는 _age이지만 데코레이터 getter로 정의된 age메소드를 통해 _age반환
+young.age = 21  #인스턴스 변수는 _age이지만 데코레이터 setter로 정의된 age메소드를 통해 _age 설정
 print(young.age)
